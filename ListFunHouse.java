@@ -9,7 +9,7 @@ public class ListFunHouse
 {
 	//this method will print the entire list on the screen
    public static void print(ListNode list)
-   { ListNode=list;
+   { ListNode next =list;
    }		
 	
 	//this method will return the number of nodes present in list
@@ -27,7 +27,8 @@ public class ListFunHouse
 	//this method will create a new node with the same value as the first node and add this
 	//new node to the list.  Once finished, the first node will occur twice.
 	public static void doubleFirst(ListNode list)
-	{list.setNext(list.getValue());
+	{
+		list.setNext(current);
 	}
 
 	//this method will create a new node with the same value as the last node and add this
